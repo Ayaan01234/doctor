@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+ 
+ .container{
+
+
+    height: 100%;
+    width: 100%;
+    background-color: rgb(185, 177, 161)
+    
+ }
+ .nav{
+     height: 30px;
+     width: 100%;
+     background-color:rgb(198, 186, 186);
+     display: flex;
+align-items: center;
+justify-content: space-between;
+ }
+ .nav span{
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+ .nav ul{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+ }
+
+ .text{
+    height: 300px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    justify-content: center;
+    
+
+ }
+ .text h1{
+  
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+    text-align: start;
+ }
+ .text p{
+    /* margin-left:80px ; */
+    color: white;
+    margin-top: 30px;
+    font-size: 22px;
+    text-align: start;
+ }
+ /* .text input{
+    margin-left: 80px;
+    height: 25px;
+    width: 200px;
+    background-color: white; */
+ 
+ button{
+   
+    border-radius: 5px;
+    border: 20px;
+    height: 45px;
+    width: 200px;
+
+ }
+ .main-container span{
+   width: 400px;
+   display: flex;
+   margin-top: 20px;
+   /* margin-left: 150px; */
+
+   
+ }
+ .main-container span p{
+   color: rgb(198, 186, 186);
+   margin-top: 15px;
+ }
+
+
+ 
+ .main-container{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+ }
+ .img-part{
+    margin-top: 30px;
+    margin-right: 100px;
+    
+ }
+
+ .bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(198, 186, 186);
+
+ }
+ .fe{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: bolder;
+   font-size: 55px;
+
+ }
